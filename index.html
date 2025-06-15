@@ -3,95 +3,153 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>YOSO — Видео за 24 часа</title>
+  <title>YOSO — Видеопродакшн в Астане</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
       font-family: 'Roboto Slab', serif;
-      background-color: #0d0d0d;
-      color: white;
-      padding: 0 16px;
     }
-    header, section {
-      margin: 40px 0;
+    body {
+      background-color: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 960px;
+      margin: auto;
     }
     h1, h2, h3 {
-      color: #a259ff;
+      color: #9F5FFF;
+      margin-bottom: 1rem;
+    }
+    ul {
+      margin-bottom: 2rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .icon {
+      margin-right: 0.5rem;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      border-left: 4px solid #0F0;
     }
     a {
-      color: #00ff99;
+      color: #0F0;
       text-decoration: none;
     }
-    a:hover {
-      text-decoration: underline;
+    .footer {
+      background: #111;
+      text-align: center;
+      padding: 1rem;
+      color: #888;
+      font-size: 0.9rem;
     }
-    .logo {
-      width: 120px;
-      margin-top: 20px;
+    .case-links a {
+      display: inline-block;
+      margin: 0.3rem 0.6rem;
+      font-size: 0.9rem;
     }
-    .clients-list {
-      list-style: none;
-      padding: 0;
-      line-height: 2;
-      font-size: 18px;
+    @media (max-width: 600px) {
+      header img {
+        width: 150px;
+      }
     }
   </style>
 </head>
 <body>
-
   <header>
-    <img src="YOSO_white_background.png" alt="YOSO Logo" class="logo">
-    <h1>👽 YOSO — быстрый и креативный продакшн</h1>
-    <p>Видео, которые вовлекают, продают и усиливают бренд. За 24 часа.</p>
+    <img src="YOSO_white_background.png" alt="YOSO Logo">
   </header>
 
-  <section id="about">
-    <h2>О нас</h2>
-    <p>13 лет опыта, 9000+ проектов, 3000+ бизнес-видео. Работаем быстро, честно и по делу.</p>
+  <section>
+    <h1>👽 YOSO — быстрый и креативный продакшн</h1>
+    <p>Говорим на языке бизнеса. Продаём. Вовлекаем. Усиливаем бренд. Делаем видео за 24 часа.</p>
   </section>
 
-  <section id="services">
-    <h2>Наши услуги</h2>
-    <p>🎥 Reels, Shorts, TikTok — от идеи до готового ролика:</p>
+  <section>
+    <h2>📦 Наши услуги</h2>
+    <div class="card">
+      <h3>🎥 Формат “Говорящая голова”</h3>
+      <p>1 Reels — 59 000 ₸ | 5 Reels — 249 000 ₸ | 10 Reels — 349 000 ₸</p>
+      <ul>
+        <li>📜 Сценарий</li>
+        <li>🎭 Модели</li>
+        <li>🏠 Локации</li>
+        <li>📸 Съёмка на Sony FX3</li>
+        <li>✂️ Монтаж 24ч</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>🎬 Сюжетный формат</h3>
+      <p>1 видео — 79 000 ₸ | 15 — 590 000 ₸ | 30 — 890 000 ₸</p>
+    </div>
+    <div class="card">
+      <h3>📺 Insta-сериал</h3>
+      <p>6 серий — 390 000 ₸ | 10 — 490 000 ₸ | 15 — 790 000 ₸</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>🚀 Преимущества работы с нами</h2>
     <ul>
-      <li>📜 Сценарий</li>
-      <li>🎥 Съёмка на Sony FX3</li>
-      <li>✂️ Монтаж за 24 часа</li>
-      <li>📊 Продвижение</li>
-    </ul>
-    <p>Цены от 59 000 ₸</p>
-  </section>
-
-  <section id="clients">
-    <h2>Клиенты и проекты</h2>
-    <ul class="clients-list">
-      <li><a href="https://www.instagram.com/akimat__astana" target="_blank">• Akimat Astana</a></li>
-      <li><a href="https://www.instagram.com/atameken_astana" target="_blank">• Atameken Astana</a></li>
-      <li><a href="https://www.instagram.com/astana_motors" target="_blank">• Astana Motors</a></li>
-      <li><a href="https://www.instagram.com/mechta.kz" target="_blank">• Mechta.kz</a></li>
-      <li><a href="https://www.instagram.com/talangallery.kz" target="_blank">• Talan Gallery</a></li>
-      <li><a href="https://www.instagram.com/hiltonastana" target="_blank">• Hilton Astana</a></li>
-      <li><a href="https://www.instagram.com/millionaire.astana" target="_blank">• Millionaire Astana</a></li>
-      <li><a href="https://www.instagram.com/nuedukz" target="_blank">• Nuedu</a></li>
-      <li><a href="https://www.instagram.com/astana_aktivlombard" target="_blank">• Актив Ломбард</a></li>
-      <li><a href="https://www.instagram.com/bi.group" target="_blank">• BI Group</a></li>
-      <li><a href="https://www.instagram.com/gpark.official" target="_blank">• GPark</a></li>
-      <li><a href="https://www.instagram.com/saranda_mabetex_group" target="_blank">• Saranda Mabetex Group</a></li>
-      <li><a href="https://www.instagram.com/sardar_group_kz" target="_blank">• Sardar Group</a></li>
-      <li><a href="https://www.instagram.com/the_akan_building" target="_blank">• The Akan Building</a></li>
-      <li><a href="https://www.instagram.com/pve.film.academy" target="_blank">• PVE Film Academy</a></li>
+      <li>🔧 Производство за 24 часа</li>
+      <li>💼 Бизнес-сценарии</li>
+      <li>🎯 Фокус на результат</li>
+      <li>🔥 Reels, Shorts, TikTok</li>
+      <li>🤝 Прозрачный процесс</li>
     </ul>
   </section>
 
-  <section id="contacts">
-    <h2>Связаться с нами</h2>
-    <p>📲 <a href="https://www.instagram.com/yosogang" target="_blank">Instagram</a></p>
-    <p>💬 <a href="https://wa.me/7082310794" target="_blank">WhatsApp</a></p>
-    <p>✉️ <a href="https://t.me/yosogang" target="_blank">Telegram</a></p>
-    <p>🎞️ <a href="https://drive.google.com/file/d/1OnMSWb5mNIy0ieHTc7-gj3H0kgf7pfaP/view" target="_blank">Шоурил 1</a></p>
-    <p>🎞️ <a href="https://drive.google.com/file/d/1NgFhWsJ4hwsO3igYQ-kacLIaO9gxbRFV/view" target="_blank">Шоурил 2</a></p>
+  <section>
+    <h2>📲 Соцсети и контакты</h2>
+    <ul>
+      <li><a href="https://wa.me/7082310794">WhatsApp</a></li>
+      <li><a href="https://t.me/yosogang">Telegram</a></li>
+      <li><a href="https://www.instagram.com/yosogang">Instagram</a></li>
+    </ul>
   </section>
 
+  <section>
+    <h2>🎞️ Шоурилы</h2>
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1OnMSWb5mNIy0ieHTc7-gj3H0kgf7pfaP/view?usp=drive_link">Шоурил 1</a></li>
+      <li><a href="https://drive.google.com/file/d/1NgFhWsJ4hwsO3igYQ-kacLIaO9gxbRFV/view?usp=drive_link">Шоурил 2</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>📸 Кейсы и проекты</h2>
+    <div class="case-links">
+      <a href="https://www.instagram.com/akimat__astana">Akimat</a>
+      <a href="https://www.instagram.com/astana_motors">Astana Motors</a>
+      <a href="https://www.instagram.com/hiltonastana">Hilton</a>
+      <a href="https://www.instagram.com/mechta.kz">Mechta</a>
+      <a href="https://www.instagram.com/sardar_group_kz">Sardar Group</a>
+      <a href="https://www.instagram.com/bi.group">BI Group</a>
+      <a href="https://www.instagram.com/pve.film.academy">PVE</a>
+      <!-- Добавь остальные при необходимости -->
+    </div>
+  </section>
+
+  <div class="footer">
+    &copy; 2025 YOSO — видеопродакшн в Астане. Все права защищены.
+  </div>
 </body>
 </html>
