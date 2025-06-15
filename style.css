@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  line-height: 1.6;
+}
+
+.header {
+  background-color: #4B0082; /* Фиолетовый */
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  max-width: 100px;
+  margin-bottom: 1rem;
+}
+
+.block {
+  padding: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+h2 {
+  color: #4B0082;
+}
+
+a {
+  color: #228B22; /* Зелёный */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
