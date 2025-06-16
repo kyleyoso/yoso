@@ -21,7 +21,7 @@ body {
 
 header {
     background-color: #121212;
-    padding: 50px 0;
+    padding: 30px 0; /* Уменьшили вертикальные отступы */
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -265,4 +265,68 @@ footer {
     color: #fff;
 }
 
-.social-links
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
+
+.social-links img {
+    width: 36px;
+    height: 36px;
+}
+
+.footer-logo.small-logo {
+    width: 100px; /* Уменьшили размер логотипа */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section h3 {
+        font-size: 1.2rem;
+    }
+
+    .service-block h3 {
+        font-size: 1.2rem;
+    }
+
+    .service-block ul li,
+    #workflow ol li,
+    #regulations ul li {
+        font-size: 1rem;
+    }
+
+    .case-links a {
+        padding: 5px 10px;
+    }
+
+    .social-links img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-logo.small-logo {
+        width: 80px; /* Дополнительное уменьшение для мобильных устройств */
+    }
+}
